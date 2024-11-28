@@ -1,0 +1,59 @@
+{
+  "projects": [
+    {
+      "id": "73b5",
+      "name": "Projet 1",
+      "description": "coco",
+      "members": [
+        "thib",
+        "Jane Smith"
+      ],
+      "tasks": [
+        {
+          "id": 1732813675162,
+          "title": "Tache 2",
+          "description": "Tache 22 hoho",
+          "priority": "Haute",
+          "dueDate": "2024-11-09",
+          "tags": [
+            "toto"
+          ],
+          "status": "En cours",
+          "assignedTo": "Jane Smith",
+          "createdAt": "2024-11-28T18:12:31.579Z"
+        }
+      ]
+    },
+    {
+      "id": "16fa",
+      "name": "toti",
+      "description": "cc",
+      "members": [
+        "thib",
+        "John Doe",
+        "Jane Smith"
+      ],
+      "tasks": []
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "username": "Jane Smith",
+      "email": "janesmith@example.com",
+      "password": "securepassword"
+    },
+    {
+      "id": "7d80",
+      "username": "thib",
+      "email": "roussel.thib@gmail.com",
+      "password": "thib"
+    }
+  ]
+}
