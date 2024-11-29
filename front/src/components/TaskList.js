@@ -38,10 +38,18 @@ const TaskList = ({ tasks, onDelete, userId, onStatusChange }) => {
                 <Box sx={{ display: 'flex', alignItems: 'center' }}>
                   <Typography
                     variant="h6"
-                    sx={{ cursor: 'pointer', marginRight: 1 }}
-                    onClick={() => navigate(`/tasks/${task.id}`)} // Redirection vers les détails
+                    sx={{  marginRight: 1 }}
+                     // Redirection vers les détails
                   >
                     {task.titre}
+                  </Typography>
+
+                  <Typography
+                    variant="h12"
+                    sx={{ cursor: 'pointer', marginRight: 1 , color:'blue'}}
+                    onClick={() => navigate(`/tasks/${task.id}`)} // Redirection vers les détails
+                  >
+                    Voir détails
                   </Typography>
                   {task.assignees?.includes(userId) && (
                     <Chip label="Assigné" color="primary" size="small" />

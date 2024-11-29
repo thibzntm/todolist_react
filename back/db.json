@@ -35,6 +35,12 @@
       "nom": "test543",
       "email": "test4@test",
       "mot_de_passe": "$2a$10$9zW.849QNWwjYPjdSvFVVeo4FSDoFsgPaCIkPujlMXR46T12q5LAy"
+    },
+    {
+      "id": "dbb7c382-2a7c-4b52-b904-d7d31a7f2dce",
+      "nom": "roussel",
+      "email": "roussel.thib@gmail.com",
+      "mot_de_passe": "$2a$10$yYIheSNG/YAY5ae6cQDG9OBntyVk7rNZG9sacz17FdY76C90czU4G"
     }
   ],
   "tasks": [
@@ -72,6 +78,18 @@
         "67de984e-a66c-4d29-a42e-020e3e5aa84f",
         "2f991662-dfc2-49e7-ad9f-b5aa85377235"
       ]
+    },
+    {
+      "id": "ce3b02fe-24cd-421f-a1e1-6ff41f13ee5e",
+      "userId": "dbb7c382-2a7c-4b52-b904-d7d31a7f2dce",
+      "titre": "Tache 1",
+      "description": "Ma tache",
+      "priorité": "Haute",
+      "échéance": "2024-12-06",
+      "statut": "En cours",
+      "assignees": [
+        "dbb7c382-2a7c-4b52-b904-d7d31a7f2dce"
+      ]
     }
   ],
   "projects": [
@@ -98,6 +116,12 @@
       "userId": "67de984e-a66c-4d29-a42e-020e3e5aa84f",
       "nom": "dsfs",
       "description": "dsf"
+    },
+    {
+      "id": "bbc63b69-ed0e-45f8-b6b5-ec700b1ccbe3",
+      "userId": "dbb7c382-2a7c-4b52-b904-d7d31a7f2dce",
+      "nom": "Projet 1",
+      "description": "Mon Projet"
     }
   ],
   "notifications": [
