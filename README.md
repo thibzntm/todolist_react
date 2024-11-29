@@ -2,6 +2,8 @@ ROUSSEL Thibaut,
 EL OUARDI Lahcen,
 CHAILI Yanis.
 
+github project : https://github.com/users/thibzntm/projects/1
+
 Run backend dans un terminal
 ### `cd back`
 ### `npm install`
