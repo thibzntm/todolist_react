@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "e77afc96-89b2-4cc5-b16b-07682936ef34",
+      "nom": "Jean Dupont",
+      "email": "jean.dupont@example.com",
+      "mot_de_passe": "$2a$10$TBrlzOWCRSqif280Z/fQAuC.AXXtatd.4zWP8eOoSuhIGvI5G263m"
+    },
+    {
+      "id": "64ed9f63-4945-4a15-ae71-0afd9ccdc7ee",
+      "nom": "Jean ",
+      "email": "jean.@example.com",
+      "mot_de_passe": "$2a$10$.zyQXPmvIETHCZCeDm9EbeC5B5VF0Dbg0fH59tvgHFccKHzJ3w5lW"
+    },
+    {
+      "id": "f470ae40-8d56-4412-bcf1-4fdaf652258c",
+      "nom": "sqdsqd",
+      "email": "test@test",
+      "mot_de_passe": "$2a$10$hdemGt/FnyG9bevu8U5/EeibspdtByyQTuaxcR5CG0Ccywxe1RT0q"
+    },
+    {
+      "id": "2f991662-dfc2-49e7-ad9f-b5aa85377235",
+      "nom": "test",
+      "email": "test1@test",
+      "mot_de_passe": "$2a$10$htqqX1s93DCroynEOH/rT.o/0xJ/.VV49gMqSMxNCv1dK5qPaHMlS"
+    },
+    {
+      "id": "5c96d057-c78f-41ae-9984-1006f6e66217",
+      "nom": "test3",
+      "email": "test3@test",
+      "mot_de_passe": "$2a$10$vYVQnS4KjeyKnbmYl6VV..d1dVpofrtbA7PTYu56GMmddTZEpLCk."
+    },
+    {
+      "id": "67de984e-a66c-4d29-a42e-020e3e5aa84f",
+      "nom": "test543",
+      "email": "test4@test",
+      "mot_de_passe": "$2a$10$9zW.849QNWwjYPjdSvFVVeo4FSDoFsgPaCIkPujlMXR46T12q5LAy"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "e07c52c0-3223-4662-8fcb-19f35146a78a",
+      "userId": "e77afc96-89b2-4cc5-b16b-07682936ef34",
+      "titre": "Terminer le projet",
+      "description": "Compléter les endpoints",
+      "priorité": "Haute",
+      "échéance": "2024-12-01",
+      "statut": "En cours",
+      "assignees": [
+        "e77afc96-89b2-4cc5-b16b-07682936ef34"
+      ]
+    },
+    {
+      "id": "0786a077-95c0-4a38-aa89-8e3ec110151d",
+      "userId": "2f991662-dfc2-49e7-ad9f-b5aa85377235",
+      "titre": "sdqd",
+      "description": "dsqdsq",
+      "priorité": "Moyenne",
+      "échéance": "1223-12-12",
+      "statut": "À faire"
+    },
+    {
+      "id": "06df54c2-63eb-4e2b-9049-0d09c86a1d0d",
+      "userId": "67de984e-a66c-4d29-a42e-020e3e5aa84f",
+      "titre": "sqdqd",
+      "description": "qsdsq",
+      "priorité": "Moyenne",
+      "échéance": "",
+      "statut": "À faire",
+      "assignees": [
+        "5c96d057-c78f-41ae-9984-1006f6e66217",
+        "67de984e-a66c-4d29-a42e-020e3e5aa84f",
+        "2f991662-dfc2-49e7-ad9f-b5aa85377235"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "40bb004e-f8c3-4b12-8d64-89a7e19d64ca",
+      "userId": "e77afc96-89b2-4cc5-b16b-07682936ef34",
+      "nom": "Projet Web",
+      "description": "Créer une application de gestion"
+    },
+    {
+      "id": "8e42b705-bc1c-4945-aa57-2995de88e978",
+      "userId": "5c96d057-c78f-41ae-9984-1006f6e66217",
+      "nom": "Projet Web",
+      "description": "Test"
+    },
+    {
+      "id": "7778e4ac-56be-4db2-8756-a76252a021ca",
+      "userId": "67de984e-a66c-4d29-a42e-020e3e5aa84f",
+      "nom": "projetVue",
+      "description": "sqdsqd"
+    },
+    {
+      "id": "3fb211db-c263-4b08-b903-072bb70c0b9c",
+      "userId": "67de984e-a66c-4d29-a42e-020e3e5aa84f",
+      "nom": "dsfs",
+      "description": "dsf"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif1",
+      "userId": "40bb004e-f8c3-4b12-8d64-89a7e19d64ca",
+      "message": "Vous avez une nouvelle tâche assignée.",
+      "lu": false
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag1",
+      "userId": "40bb004e-f8c3-4b12-8d64-89a7e19d64ca",
+      "nom": "Urgent"
+    }
+  ]
+}
